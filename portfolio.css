@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900,900italic);
+
+body {
+  font-family: "Source Sans Pro";
+}
+
+div > h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: #ffffff;
+  background-color:#1b0858;
+  height: auto;
+  width: auto;
+}
+
+.contacts {
+  display: grid;
+  justify-content: flex-end;
+  grid-auto-columns: 65%;
+  column-gap: 20px;
+  font-size: 1.5rem;
+  line-height: 0.5rem;
+}
+
+.email {
+  display: flex;
+  text-align: center;
+}
+
+.phone {
+  display: grid;
+  text-align: right;
+  margin-top: -3.1rem;
+}
+
+.linkedin {
+  text-align: center;
+}
+
+.portfolio {
+  display: grid;
+  text-align: right;
+  margin-top: -3.3rem;
+}
+
+.pics > img {
+  border-radius: 20%;
+  display: grid;
+  grid-auto-columns: 35%;
+  margin-top: -300px;
+  margin-left: 1rem;
+  height: 350px;
+  position: relative;
+  
+}
+
+.goal {
+  display: grid;
+  grid-auto-columns: 35%;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.summary {
+  display: grid;
+  grid-auto-columns: 60%;
+  text-align: right;
+  font-size: 1.5rem;
+  text-align: justify;
+  justify-content: flex-end;
+  margin-top: -35rem;
+}
+
+
+h3 {
+  color: #1b0858;
+  text-decoration: underline;
+}
+
+b {
+  color: #1b0858;
+  text-decoration: underline;
+}
+
+.language, .framework, .tools, .interest {
+  display: grid;
+  grid-auto-columns: 60%;
+  text-align: right;
+  font-size: 1.5rem;
+  text-align: justify;
+  justify-content: flex-end;
+  margin-top: -3.2rem;
+}
+
+.framework {
+  margin-top: -2.2rem !important;
+}
+
+.tools {
+  margin-top: -2rem !important;
+} 
+
+.interest {
+  margin-top: -1.9rem !important;
+}
+
+.projects {
+  display: grid;
+  grid-auto-columns: 60%;
+  text-align: right;
+  font-size: 1.5rem;
+  text-align: justify;
+  justify-content: flex-end;
+}
+
+.education {
+  display: grid;
+  grid-auto-columns: 35%;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  text-align: justify;
+  margin-top: -35rem;
+}
+
+.ref {
+  display: grid;
+  grid-auto-columns: 35%;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  text-align: justify;
+  margin-top: -1.5rem;
+}
+
+ul > li {
+  height: 3rem;
+}
